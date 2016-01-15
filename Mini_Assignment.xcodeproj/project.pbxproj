@@ -24,6 +24,14 @@
 		9B502AB21A0BBC7F00B6EAD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B502A8D1A0BBC7F00B6EAD4 /* UIKit.framework */; };
 		9B502ABA1A0BBC7F00B6EAD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B502AB81A0BBC7F00B6EAD4 /* InfoPlist.strings */; };
 		9B502ABC1A0BBC7F00B6EAD4 /* Mini_AssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B502ABB1A0BBC7F00B6EAD4 /* Mini_AssignmentTests.m */; };
+		9B502AC71A0BBCB000B6EAD4 /* NNStartLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B502AC61A0BBCB000B6EAD4 /* NNStartLabel.m */; };
+		9B502ACE1A0BC59100B6EAD4 /* NNGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B502ACD1A0BC59100B6EAD4 /* NNGame.m */; };
+		9B502AD11A0BC93400B6EAD4 /* NNBug.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B502AD01A0BC93400B6EAD4 /* NNBug.m */; };
+		9B502AD41A0BCBF200B6EAD4 /* NNBomb.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B502AD31A0BCBF200B6EAD4 /* NNBomb.m */; };
+		9B502AD71A0BCDB500B6EAD4 /* NNScoreLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B502AD61A0BCDB500B6EAD4 /* NNScoreLabel.m */; };
+		9B502ADA1A0BCFE300B6EAD4 /* NNTimeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B502AD91A0BCFE300B6EAD4 /* NNTimeLabel.m */; };
+		9B502ADD1A0BD9D400B6EAD4 /* NNGameOver.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B502ADC1A0BD9D400B6EAD4 /* NNGameOver.m */; };
+		9B9655311A0C31C500536504 /* NNBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9655301A0C31C500536504 /* NNBackground.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +68,23 @@
 		9B502AB71A0BBC7F00B6EAD4 /* Mini_AssignmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mini_AssignmentTests-Info.plist"; sourceTree = "<group>"; };
 		9B502AB91A0BBC7F00B6EAD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B502ABB1A0BBC7F00B6EAD4 /* Mini_AssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mini_AssignmentTests.m; sourceTree = "<group>"; };
+		9B502AC51A0BBCB000B6EAD4 /* NNStartLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNStartLabel.h; sourceTree = "<group>"; };
+		9B502AC61A0BBCB000B6EAD4 /* NNStartLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNStartLabel.m; sourceTree = "<group>"; };
+		9B502AC81A0BC0E800B6EAD4 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		9B502ACC1A0BC59100B6EAD4 /* NNGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNGame.h; sourceTree = "<group>"; };
+		9B502ACD1A0BC59100B6EAD4 /* NNGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNGame.m; sourceTree = "<group>"; };
+		9B502ACF1A0BC93400B6EAD4 /* NNBug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNBug.h; sourceTree = "<group>"; };
+		9B502AD01A0BC93400B6EAD4 /* NNBug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNBug.m; sourceTree = "<group>"; };
+		9B502AD21A0BCBF200B6EAD4 /* NNBomb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNBomb.h; sourceTree = "<group>"; };
+		9B502AD31A0BCBF200B6EAD4 /* NNBomb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNBomb.m; sourceTree = "<group>"; };
+		9B502AD51A0BCDB500B6EAD4 /* NNScoreLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNScoreLabel.h; sourceTree = "<group>"; };
+		9B502AD61A0BCDB500B6EAD4 /* NNScoreLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNScoreLabel.m; sourceTree = "<group>"; };
+		9B502AD81A0BCFE300B6EAD4 /* NNTimeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNTimeLabel.h; sourceTree = "<group>"; };
+		9B502AD91A0BCFE300B6EAD4 /* NNTimeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNTimeLabel.m; sourceTree = "<group>"; };
+		9B502ADB1A0BD9D400B6EAD4 /* NNGameOver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNGameOver.h; sourceTree = "<group>"; };
+		9B502ADC1A0BD9D400B6EAD4 /* NNGameOver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNGameOver.m; sourceTree = "<group>"; };
+		9B96552F1A0C31C500536504 /* NNBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNBackground.h; sourceTree = "<group>"; };
+		9B9655301A0C31C500536504 /* NNBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNBackground.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +153,23 @@
 				9B502AA11A0BBC7F00B6EAD4 /* NNViewController.m */,
 				9B502AA31A0BBC7F00B6EAD4 /* NNMyScene.h */,
 				9B502AA41A0BBC7F00B6EAD4 /* NNMyScene.m */,
+				9B502AC51A0BBCB000B6EAD4 /* NNStartLabel.h */,
+				9B502AC61A0BBCB000B6EAD4 /* NNStartLabel.m */,
+				9B502ACC1A0BC59100B6EAD4 /* NNGame.h */,
+				9B502ACD1A0BC59100B6EAD4 /* NNGame.m */,
+				9B502ACF1A0BC93400B6EAD4 /* NNBug.h */,
+				9B502AD01A0BC93400B6EAD4 /* NNBug.m */,
+				9B502AD21A0BCBF200B6EAD4 /* NNBomb.h */,
+				9B502AD31A0BCBF200B6EAD4 /* NNBomb.m */,
+				9B502AD51A0BCDB500B6EAD4 /* NNScoreLabel.h */,
+				9B502AD61A0BCDB500B6EAD4 /* NNScoreLabel.m */,
+				9B502AD81A0BCFE300B6EAD4 /* NNTimeLabel.h */,
+				9B502AD91A0BCFE300B6EAD4 /* NNTimeLabel.m */,
+				9B502ADB1A0BD9D400B6EAD4 /* NNGameOver.h */,
+				9B502ADC1A0BD9D400B6EAD4 /* NNGameOver.m */,
+				9B96552F1A0C31C500536504 /* NNBackground.h */,
+				9B9655301A0C31C500536504 /* NNBackground.m */,
+				9B502AC81A0BC0E800B6EAD4 /* Common.h */,
 				9B502AA61A0BBC7F00B6EAD4 /* Spaceship.png */,
 				9B502AA81A0BBC7F00B6EAD4 /* Images.xcassets */,
 				9B502A921A0BBC7F00B6EAD4 /* Supporting Files */,
@@ -263,10 +305,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B502AD11A0BC93400B6EAD4 /* NNBug.m in Sources */,
+				9B9655311A0C31C500536504 /* NNBackground.m in Sources */,
 				9B502AA21A0BBC7F00B6EAD4 /* NNViewController.m in Sources */,
+				9B502ACE1A0BC59100B6EAD4 /* NNGame.m in Sources */,
+				9B502AC71A0BBCB000B6EAD4 /* NNStartLabel.m in Sources */,
 				9B502A9C1A0BBC7F00B6EAD4 /* NNAppDelegate.m in Sources */,
+				9B502ADA1A0BCFE300B6EAD4 /* NNTimeLabel.m in Sources */,
+				9B502AD71A0BCDB500B6EAD4 /* NNScoreLabel.m in Sources */,
 				9B502AA51A0BBC7F00B6EAD4 /* NNMyScene.m in Sources */,
 				9B502A981A0BBC7F00B6EAD4 /* main.m in Sources */,
+				9B502ADD1A0BD9D400B6EAD4 /* NNGameOver.m in Sources */,
+				9B502AD41A0BCBF200B6EAD4 /* NNBomb.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +523,7 @@
 				9B502AC11A0BBC7F00B6EAD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B502AC21A0BBC7F00B6EAD4 /* Build configuration list for PBXNativeTarget "Mini_AssignmentTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +532,7 @@
 				9B502AC41A0BBC7F00B6EAD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,11 @@
 //
 
 #import <SpriteKit/SpriteKit.h>
+#import "NNStartLabel.h"
+#import "NNGame.h"
 
 @interface NNMyScene : SKScene
+
+@property (strong,nonatomic) NNStartLabel *startLable;
 
 @end
